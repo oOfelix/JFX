@@ -236,7 +236,7 @@ public class Paint extends Application {
         hyperlink.setPadding(new Insets(0,0,0, 300));
         hyperlink.setOnAction(actionEvent -> {
             HostServices hostServices = getHostServices();
-            hostServices.showDocument("http://47.101.180.27");
+            hostServices.showDocument("https://github.com/oOfelix/JFX");
         });
 
         hBoxBottom.getChildren().addAll(labelXY,labelS,labelC,hyperlink);
